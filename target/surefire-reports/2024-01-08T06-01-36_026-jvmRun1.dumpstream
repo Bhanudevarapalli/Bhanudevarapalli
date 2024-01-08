@@ -1,0 +1,25 @@
+# Created at 2024-01-08T06:03:17.825
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: null
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+# Created at 2024-01-08T06:03:30.924
+Unexpected IOException with stream: 2024-01-08 06:03:30.822  INFO 12517 --- [           main] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: com.example.song.model.Song (class must be instantiated by Interceptor)
+
+
+# Created at 2024-01-08T06:03:40.933
+Unexpected IOException with stream: 2024-01-08 06:03:40.932  INFO 12517 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+
+
+# Created at 2024-01-08T06:03:41.431
+Unexpected IOException with stream: 2024-01-08 06:03:41.430  INFO 12517 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+
+
+# Created at 2024-01-08T06:03:58.927
+Unexpected IOException with stream: 2024-01-08 06:03:58.926  WARN 12517 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+
+
