@@ -1,0 +1,16 @@
+.list-tab-items {
+  display: flex;
+  list-style-type: none;
+}
+.item-btn {
+  font-size: 16px;
+  font-family: 'Bree Serif';
+  color: #dfe2e5;
+  font-weight: 200px;
+}
+.item-selected-btn {
+  color: #2563eb;
+  text-decoration: underline;
+  font-size: 16px;
+  font-family: 'Bree Serif';
+}

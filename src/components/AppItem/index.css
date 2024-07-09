@@ -1,0 +1,24 @@
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style-type: none;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 8px;
+  width: 130px;
+  height: 100px;
+}
+.app-item-image {
+  height: 35px;
+  width: 35px;
+}
+.app-name {
+  font-size: 20px;
+  font-family: 'Bree Serif';
+  color: #1e293b;
+  font-weight: 200px;
+}
